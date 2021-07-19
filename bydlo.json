@@ -15,7 +15,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -33,7 +33,7 @@
                  "value":"Bydlo.mp3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -45,7 +45,7 @@
          "name":"Exit",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -63,7 +63,7 @@
                  "value":"https:\/\/wa-mussorgski.blogspot.com\/2021\/07\/bydlo-01.html"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -81,7 +81,7 @@
                  "value":"https:\/\/wa-mussorgski.blogspot.com\/2021\/07\/bydlo-02.html"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -99,7 +99,7 @@
                  "value":"https:\/\/wa-mussorgski.blogspot.com\/2021\/07\/bydlo-03.html"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -117,7 +117,7 @@
                  "value":"https:\/\/wa-mussorgski.blogspot.com\/2021\/07\/bydlo-04.html"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -143,7 +143,7 @@
          "offsety":0.00390625,
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -155,7 +155,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -167,7 +167,7 @@
          "name":"Floor2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
@@ -191,11 +191,11 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":17,
+ "nextlayerid":18,
  "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -226,6 +226,16 @@
          "spacing":2,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }],
  "tilewidth":32,
