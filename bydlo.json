@@ -63,7 +63,7 @@
                  "value":"https:\/\/wa-mussorgski.blogspot.com\/2021\/07\/bydlo-01.html"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":80,
          "x":0,
          "y":0
